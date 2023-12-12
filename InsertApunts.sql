@@ -1,0 +1,30 @@
+INSERT INTO cicle
+VALUES ("HB","Higene BocoDental");
+
+INSERT INTO modul 
+VALUES 
+("M1","HB","RECEPCIÓ I LOGÍSTICA DE LA CLINICA DENTAL"), 
+("M2","HB","ESTUDI DE LA CAVITAT ORAL"), 
+("M3","HB","EXPLORACIÓ DE LA CAVITAT ORAL"), 
+("M4","HB","INTERVENCIÓ BUCODENTAL"), 
+("M5","HB","EPIDEMIOLOGIA"), 
+("M6","HB","EDUCACIÓ PER LA SALUT"), 
+("M7","HB","CONSERVADORA, PERIODÒNCIA, CIRURGIA I IMPLANTS"), 
+("M8","HB","PRÒTESI I ORTODÒNCIA"), 
+("M9","HB"," "), 
+("M10","HB","FISIOPATOLOGIA GENERAL");
+
+INSERT INTO nodeFormatiu(nom,nom_modul)
+VALUES
+("NF1","M1"),
+("NF1","M2"),
+("NF1","M3"),
+("NF1","M4"),
+("NF1","M5"),
+("NF1","M6"),
+("NF1","M7"),
+("NF1","M8"),
+("NF1","M9"),
+("NF1","M10");
+
+
